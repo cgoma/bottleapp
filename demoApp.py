@@ -13,7 +13,7 @@ import time
 import sys
 import iothub_service_client
 import json
-#from iothub_service_client import IoTHubDeviceTwin, IoTHubError
+from iothub_service_client import IoTHubDeviceTwin, IoTHubError
 #from iothub_service_client_args import get_iothub_opt_with_module, OptionError
 from bottle import run, route, get, post, request, template, response, \
 Bottle,HTTPResponse
